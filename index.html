@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+      <h1>The Rock Paper Scissors Game</h1>
+      <h2>Win five rounds to be the victor</h2>
+      <h2>
+        Player <span id="playScore" class="playerScore">0</span> - <span id="computerScore" class="computerScore">0</span> Computer
+      </h2>
+      <div class="display-moves">
+        <div >
+          <img id="playerImage" src="images/rock.png">
+        </div>
+        <div class="separator">VS</div>
+        <div >
+          <img id="computerImage" src="images/rock.png">
+        </div>
+      </div>
+      <h2>Click on the image below to select your move:<h2>
+      <div class="action">
+        <input class="options" id="rock" type="image" src="images/rock.png" value="Rock" />
+        <input class="options" id="paper" type="image" src="images/paper.png" value="Paper" />
+        <input class="options" id="scissors"type="image" src="images/scissors.png" value="Scissors" />
+      </div>
+    </div>
+  </body>
+</html>
